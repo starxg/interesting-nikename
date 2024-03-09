@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Interesting Nikename</title>
+    <script src="./interesting-nikename.js"></script>
+  </head>
+  <body>
+    <p></p>
+    <button onclick="generate()">Generate</button>
+    <script>
+      function generate() {
+        document.getElementsByTagName("p")[0].innerText =
+          generateInterestingNikename();
+      }
+      generate();
+    </script>
+  </body>
+</html>

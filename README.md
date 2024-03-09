@@ -2,6 +2,10 @@
 
 随机生成有趣的昵称，例如 “潇洒的吉他”、“机灵的书包”、“憨厚的钢笔” 等等，多达 200 万个昵称。
 
+## Demo
+
+[在线体验](https://starxg.github.io/interesting-nikename/)
+
 ## 使用
 
 ```javascript
